@@ -1,1 +1,24 @@
 /* Start coding here */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 24px;
+}
+.titel {
+    background-color: darkcyan;
+    padding: 16px 24px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border: 2px solid black;
+    width: 33%;
+    padding: 16px;
+}
